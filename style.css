@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.headingC{
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.heading{
+  color:#393131;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.texts h3{
+  color: #970808;
+}
+
+li a{
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+li:hover a{
+  text-decoration: none;
+  color: #970808;
+}
+
+.home{
+  background-image: url('./img/bg-home.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+
+nav{
+  padding: 1rem;
+  font-size: 25px;
+  margin: 0 18px;
+  position: sticky;
+  
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.texts{
+  font-size: 25px;
+  margin-top: 380px;
+  margin-left: 50px;
+  letter-spacing: 5px;
+
+}
+
+.pink{
+  color: #f80088; 
+}
+
+.workshop{
+  display: flex;
+  max-width: 100%;
+  margin: 20px 50px;
+  color: #393131;
+  padding: 1rem;
+  margin:20px 20px;
+}
+
+
+
+.workshop h2{
+  font-size: 40px;
+}
+
+.workshop p{
+  font-size: 30px;
+}
+
+.image__left{
+  position: relative;
+}
+
+.frame{
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.inner{
+  object-fit: contain;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+.desc__right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.image__right{
+  position: relative;
+}
+
+.frameL{
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.innerL{
+  object-fit: contain;
+  position: relative;
+  top: 40px;
+  right: 40px;
+}
+
+.desc__left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.products{
+  display: flex;
+  text-align: center;
+
+}
+
+.productName{
+  font-size: 40px;
+  font-weight: bold;
+  color: #393131;
+}
+
+.product p{
+  font-size: 30px;
+  font-weight: 600;
+  color: #393131;
+}
+
+.product i{
+  margin-right: 8px;
+}
+
+.product button{
+  margin-top: 10px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+}
+
+.product button:hover{
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+}
+
+.circ{
+  background-color: grey;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.grayH{
+  margin-top: 10px;
+  color: lightgray;
+  font-size: 35px;
+}
+
+.gray{
+  margin-top: 40px;
+  color: lightgray;
+  font-size: 25px;
+}
+
+.events{
+  background-color: #DF0043;
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  width: 100%;
+}
+
+.event{
+  display: flex;
+}
+.event img{
+  object-fit: contain;
+  width: 100%;
+  padding: 20px;
+  height: 750px;
+}
+
+.event__desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  color: white;
+  font-weight: 800;
+  font-size: 35px;
+}
+
+
+.services{
+  margin-top: -40px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.service__bike{
+  background-image: url('./img/mohnish-landge-KeIe-uJ7SJw-unsplash.png');
+  height: 15rem;
+  width: 100%;
+  padding: 0 -30px;
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+.service__motorcyce{
+  background-image: url('./img/nick-mercer-v0smCPnCisc-unsplash.png');
+  height: 15rem;
+  width: 100%;
+  padding: 0 -30px;
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+.service__paint{
+  background-image: url('./img/arteum-ro-yUTqhofN8Vk-unsplash.png');
+  height: 15rem;
+  width: 100%;
+  padding: 0 -30px;
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+.service__vintage{
+  background-image: url('./img/kenny-luo-iiut6fDkInc-unsplash.png');
+  height: 15rem;
+  width: 100%;
+  padding: 0 -30px;
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+.service__projects{
+  background-image: url('./img/neonbrand-tKvp2XBx4NE-unsplash.png');
+  height: 15rem;
+  width: 100%;
+  padding: 0 -30px;
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+.review{
+  padding: 20px;
+}
+
+
+.about{
+  padding: 20px;
+  color: gray;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about img{
+  object-fit: contain;
+  width: 100%;
+}
+
+
+.blogs{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.blog{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.blog__desc{
+  display: flex;
+  flex-direction: column;
+}
+
+.blog__desc span{
+  font-size: 30px;
+  color: #f80088;
+  font-weight: 600;
+}
+
+.blog__desc p{
+  font-size: 20px;
+  font-weight: 600;
+  color: grey;
+}
+
+.blog__desc img{
+  object-fit: contain;
+  width: 100%;
+}
+
+.footer{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  height: auto;
+  bottom: 0;
+  padding: 20px;
+}
+
+.address{
+  display: flex;
+  flex-direction: column;
+}
+
+.socialMedia i{
+  font-size: 40px;
+  padding: 15px;
+}
